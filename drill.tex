@@ -1,0 +1,71 @@
+\documentclass{beamer}
+%
+\usepackage{fontspec}
+%\setmainfont{Source Pro}
+%\usepackage{bera}
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  % \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  % \usetheme{Darmstadt}
+  \usetheme{Madrid}
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  % \usefonttheme{default}  % or try serif, structurebold, ...
+  \usefonttheme{serif}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+
+\title[drill]{Drill Your Presentation}
+\author{demi}
+\institute{}
+\date{drill}
+
+\long\def\fm#1.{%
+\begin{frame}[c]
+  \begin{center}\LARGE
+    #1
+  \end{center}
+\end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\fm Žirniais lyja .
+
+\begin{frame}[c]
+  \begin{center}\LARGE
+    kandis
+%    
+%    \uncover<2->{kan\alert{|}dis}
+  \end{center}
+
+%   \begin{itemize}
+% \item 2 is prime (two divisors: 1 and 2).
+% \pause
+% \item 3 is prime (two divisors: 1 and 3).
+% \pause
+% \item 4 is not prime (\alert{three} divisors: 1, 2, and 4).
+% \end{itemize}
+
+\end{frame}
+
+\begin{frame}<1-2,4->
+  This is slide number
+  \only<1>{1}\only<2>{2}\only<3>{3}%
+  \only<4>{4}\only<5>{5}.
+\end{frame}
+
+
+\end{document}
