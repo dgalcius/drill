@@ -3,7 +3,8 @@
 default: drill.pdf
 
 %.pdf: %.tex
-	lualatex -recorder $<
+	lualatex  $<
 
 clean:
-	find . -not -name "*.tex" -not -name "Makefile" -not -name "\.git" -delete
+	rm -rf *.aux *.fls *.log *.nav *.pdf *.out *.snm *.toc
+#-delete
