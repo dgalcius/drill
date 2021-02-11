@@ -1,0 +1,21 @@
+#+AUTHOR: Nikoleta Pro++
+#+TITLE: My vocabulary
+
+|---------------+------------|
+| english       | lithuanian |
+|---------------+------------|
+| an insect     | vabzdys    |
+| a ladybird    | boružė     |
+| has got       | turi       |
+| a wing        | sparnas    |
+| a grasshopper | žiogas     |
+| walk          | vaikščioti |
+| a gnat        | uodas      |
+| sting         | gelti      |
+| a skater      | čiuožikas  |
+| skate         | čiuožti    |
+| a sting       | geluonis   |
+| Watch out!    | Saugokis!  |
+|---------------+------------|
+
+

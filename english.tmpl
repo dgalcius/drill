@@ -1,3 +1,4 @@
+{{=<< >>=}}
 \documentclass{beamer}
 %
 \usepackage[letterspace=50]{letterspace}
@@ -26,8 +27,8 @@
 %\usepackage[english]{babel}
 %\usepackage[utf8x]{inputenc}
 
-\title[drill]{Drill Your Words}
-\author{deimi}
+\title[drill]{<<{title}>>}
+\author{<<{author}>>}
 \institute{}
 \date{}
 
@@ -46,18 +47,19 @@
   \titlepage
 \end{frame}
 
-\fm Žirniais lyja .
+<<#words>>
+\begin{frame}<1-2>
+  \begin{center}
+    \Huge
+    <<{lt}>>
 
-\fm Kandis .
-
-
-
-
-\begin{frame}<1-2,4->
-  This is slide number
-  \only<1>{1}\only<2>{2}\only<3>{3}%
-  \only<4>{4}\only<5>{5}.
+    \vskip1.5pc
+    \strut
+    \only<2>
+    {\smash{\textcolor{blue}{<<{en}>>}}}
+        
+  \end{center}
 \end{frame}
-
+<</words>>
 
 \end{document}

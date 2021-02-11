@@ -1,0 +1,29 @@
+#+AUTHOR: Dominykas Pro Gud, Hacker
+#+TITLE: English Vocabulary
+
++----------- -----------+
+| english    | lithuanian  |
+|------------+-------------|
+| listen     | klausyk     |
+| repeat     | kartoti     |
+| sing       | dainuoti    |
+| he's got   | jis turi    |
+| she's got  | ji turi     |
+| it's got   | jis/ji turi |
+| a ladybird | boružėlė    |
+| a gnat     | uodas       |
+| a sting    | geluonis    |
+| to sting   | gelti       |
+| a pond     | tvenkinys   |
+| a pen      | pieštukas   |
+| a ruler    | liniuotė    |
+| a CD       | plokštė     |
+| wings      | sparnai     |
+| legs       | kojos       |
+| feets      | pėdos       |
+| to hop     | šokinėti    |
+| to fly     | skristi     |
+| to skate   | čiuožti     |
+| to walk    | vaikščioti  |
+| an insect  | vabalas     |
+| a spot     | dėmė        |
